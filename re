@@ -15,7 +15,7 @@ local BoatSection = BoatTab:AddSection({
 BoatSection:AddDropdown({
 	Name = "Select your Free Boat",
 	Default = "1",
-	Options = {"DuckyBoatBeta", "DuckyBoat","HMHSBritannic" , "UFO", "Titanic","BlueCanopyMotorboat", "BlueWoodenMotorboat", "UnicornBoat", "Jetski", "RedMarlin", "Sloop", "TugBoat", "SmallDinghyMotorboat", "JetskiDonut", "Marlin", "TubeBoat", "FishingBoat", "VikingShip", "SmallWoodenSailboat", "RedCanopyMotorboat", "Catamaran", "CombatBoat", "TourBoat", "Duckmarine", "PartyBoat", "MilitarySubmarine",  "GingerbreadSteamBoat", "Sleigh2022", "Snowmobile", "CruiseShip", "Wildfire""},
+	Options = {"DuckyBoatBeta", "DuckyBoat","HMHSBritannic" , "Titanic", "BlueCanopyMotorboat", "BlueWoodenMotorboat", "UnicornBoat", "Jetski", "RedMarlin", "Sloop", "TugBoat", "SmallDinghyMotorboat", "JetskiDonut", "Marlin", "TubeBoat", "FishingBoat", "VikingShip", "SmallWoodenSailboat", "RedCanopyMotorboat", "Catamaran", "CombatBoat", "TourBoat", "Duckmarine", "PartyBoat", "MilitarySubmarine",  "GingerbreadSteamBoat", "Sleigh2022", "Snowmobile", "CruiseShip", "Wildfire""},
 	Callback = function(Value)
 local ohString1 = (Value)
 
